@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <configuration default="false" name="default" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="glosbe" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/glosbe.lbaction/Contents/Scripts" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/glosbe.lbaction/Contents/Scripts/default.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="glosbe" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="glosbe" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/glosbe.lbaction/Contents/Scripts" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/glosbe.lbaction/Contents/Scripts/glosbe.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.1, RVM: rbx-2.2.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubysl-base64 (v2.0.0, RVM: rbx-2.2.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubysl-cgi (v2.0.1, RVM: rbx-2.2.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubysl-erb (v2.0.1, RVM: rbx-2.2.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubysl-net-http (v2.0.4, RVM: rbx-2.2.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubysl-singleton (v2.0.0, RVM: rbx-2.2.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubysl-time (v2.0.3, RVM: rbx-2.2.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubysl-uri (v2.0.0, RVM: rbx-2.2.10) [gem]" level="application" />
+  </component>
+</module>
