@@ -15,10 +15,10 @@ end
 def translate(from, to, word)
   command = GlosbeTranslateCommand.new(from, to, word)
   command.run
-  if (command.run && command.translates)
-    glosbeTranslatesToItems(command.translates)
+  if (command.run && command.translates.count > 0)
+    return glosbeTranslatesToItems(command.translates)
   else
-    return emptyResultItem
+    return [emptyResultItem]
   end
 end
 
@@ -94,13 +94,10 @@ end
 
 items = []
 if ARGV.length > 0
-  items = handleArgs({'_act'=>'translate', '_word'=>ARGV[0]})
+  items = handleArgs({'_act'=>'translate', '_word'=>ARGV[0].downcase})
 else 
   items = handleArgs({'_act'=>'launch'})
 end
 
-#puts handleArgs({'_act'=>'translate', '_word'=>"кот"})
-#if "кот" =~ /[абвк]/
-#  p 'да'
-#end
+#puts handleArgs({'_act'=>'translate', '_word'=>"коasdfaт"})
 puts items.to_json

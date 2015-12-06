@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d996c6c-750e-4536-b43d-7e0b6bcf3584" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/glosbe.lbaction/Contents/Scripts/glosbe.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/glosbe.lbaction/Contents/Scripts/default.rb" afterPath="$PROJECT_DIR$/glosbe.lbaction/Contents/Scripts/default.rb" />
     </list>
     <ignored path="glosbe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +17,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/glosbe@glosbe.coverage" NAME="glosbe Coverage Results" MODIFIED="1449407141148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quizlet.lbaction/Contents/Scripts" MODULE_NAME="glosbe" />
-    <SUITE FILE_PATH="coverage/glosbe@default.coverage" NAME="default Coverage Results" MODIFIED="1449409246755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/glosbe.lbaction/Contents/Scripts" MODULE_NAME="glosbe" />
+    <SUITE FILE_PATH="coverage/glosbe@default.coverage" NAME="default Coverage Results" MODIFIED="1449410193398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/glosbe.lbaction/Contents/Scripts" MODULE_NAME="glosbe" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="default.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/glosbe.lbaction/Contents/Scripts/default.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40453687">
-              <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.7731569">
+              <caret line="101" column="60" selection-start-line="101" selection-start-column="60" selection-end-line="101" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -118,6 +117,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="glosbe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="glosbe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="glosbe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -411,8 +420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/glosbe.lbaction/Contents/Scripts/default.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40453687">
-          <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.7731569">
+          <caret line="101" column="60" selection-start-line="101" selection-start-column="60" selection-end-line="101" selection-end-column="60" />
           <folding />
         </state>
       </provider>
